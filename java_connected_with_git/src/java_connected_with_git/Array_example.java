@@ -3,7 +3,7 @@ package java_connected_with_git;
 public class Array_example {
 
 	public static void main(String[] args) {
-		    // 오름차순 예제
+		    // 내림차순 예제
 		      
 		    int[] arr = {99, 32, 22, 87, 140};
 		      
@@ -11,7 +11,7 @@ public class Array_example {
 		    {
 		        for(int j = i + 1 ; j < arr.length; j++)
 		        {
-		           if(arr[i] < arr[j]) //오름차순 정렬. 비교 후 제일 높은 숫자가 앞에 위치함
+		           if(arr[i] < arr[j]) //내림차순 정렬. 비교 후 제일 높은 숫자가 앞에 위치함
 		           {
 		               int tmp = arr[i]; //i를 tmp 변수에 잠시 넣어두고
 		               arr[i] = arr[j]; //j로 i 값 덮어쓰기(변수값은 덮어쓰기밖에 안 되어서 변수값을 상호 교환하려면 임시로 담아둘 다른 변수를 생성해야 함)
